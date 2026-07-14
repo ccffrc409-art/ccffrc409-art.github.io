@@ -3,59 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Personal portfolio of a Roblox scripting developer." />
-    <title>ccffrc409-art — Roblox scripting</title>
+    <meta name="description" content="ccffrc409-art — Roblox Luau scripting and game systems." />
+    <title>ccffrc409-art | Roblox scripting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="grid"></div>
     <header>
-      <a class="name" href="#top">ccffrc409-art</a>
-      <nav><a href="#work">work</a><a href="#about">about</a><a href="#contact">contact</a></nav>
+      <a class="logo" href="#top">C409<span>.</span></a>
+      <nav><a class="active" href="#top">Home</a><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+      <a class="status" href="#contact"><i></i> Available</a>
     </header>
 
     <main id="top">
-      <section class="intro">
-        <p class="availability">● currently available for small projects</p>
-        <h1>Hi, I’m a Roblox<br />scripting developer.</h1>
-        <p class="lead">I make the parts of a game that need to work properly: systems, tools, UI, saving, and fixes when something’s not behaving.</p>
-        <a class="text-link" href="#contact">Get in touch <span>↓</span></a>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="label">Roblox scripting developer</p>
+          <h1>Systems that<br /><span>feel good</span> to play.</h1>
+          <p class="summary">I build gameplay systems, clean up difficult bugs, and turn ideas into reliable Luau code.</p>
+          <div class="actions"><a class="primary" href="#contact">Start a project <b>↗</b></a><a class="secondary" href="#work">View work <b>↓</b></a></div>
+        </div>
+        <aside class="profile-card">
+          <div class="profile-mark"><span>{ }</span></div>
+          <p class="label">Quick intro</p>
+          <h2>ccffrc409-art</h2>
+          <p>Independent Roblox developer focused on gameplay, systems, and the details players notice.</p>
+          <div class="tags"><span>Luau</span><span>Roblox</span><span>Systems</span></div>
+        </aside>
       </section>
 
-      <section id="work" class="work">
-        <div class="section-title"><p>Selected work</p><span>Things I’ve been working on</span></div>
-        <div class="project-grid">
-          <article class="project warm">
-            <div class="project-image"><span class="window one"></span><span class="window two"></span><span class="sun"></span><span class="ground"></span></div>
-            <div class="project-info"><h2>Your project name</h2><p>A short, honest description of what you built. Mention what the system does and why it matters to players.</p><span>Roblox · Luau</span></div>
-          </article>
-          <article class="project blue">
-            <div class="project-image"><span class="panel"></span><span class="line l1"></span><span class="line l2"></span><span class="line l3"></span><span class="cursor">›_</span></div>
-            <div class="project-info"><h2>Another project</h2><p>Use this space for a game, commission, or system you’re proud of. Screenshots or a short video clip work great here.</p><span>Roblox · Systems</span></div>
-          </article>
+      <section class="strip"><span>GAMEPLAY</span><b>✦</b><span>DATA & INVENTORY</span><b>✦</b><span>UI LOGIC</span><b>✦</b><span>BUG FIXES</span><b>✦</b><span>OPTIMIZATION</span></section>
+
+      <section id="work" class="section work">
+        <div class="heading"><div><p class="label">01 / Work</p><h2>What I build.</h2></div><p>Projects and systems can go here.<br />Add your videos or screenshots when ready.</p></div>
+        <div class="work-grid">
+          <article class="work-card featured"><div class="screen"><span class="screen-label">FEATURED SYSTEM</span><div class="arena"><i></i><i></i><i></i><b>COMBAT<br />SYSTEM</b></div></div><div class="card-copy"><div><h3>Combat & abilities</h3><p>Responsive combat, cooldowns, hit detection, skills, and effects.</p></div><span>01</span></div></article>
+          <article class="work-card"><div class="screen economy"><span class="screen-label">GAMEPLAY SYSTEM</span><div class="balance"><small>PLAYER BALANCE</small><b>24,800</b><span>tokens</span></div></div><div class="card-copy"><div><h3>Economy & data</h3><p>Inventory, currencies, shops, saving, and secure progression.</p></div><span>02</span></div></article>
+          <article class="work-card"><div class="screen ui"><span class="screen-label">INTERFACE</span><div class="fake-ui"><b>QUESTS</b><i></i><i></i><i></i></div></div><div class="card-copy"><div><h3>UI & interaction</h3><p>Interfaces that make game systems clear and easy to use.</p></div><span>03</span></div></article>
         </div>
       </section>
 
-      <section id="about" class="about">
-        <p class="section-kicker">A little about me</p>
-        <div><h2>I care about the boring stuff too.</h2><p>Good game scripting is more than getting a feature to appear once. I try to keep code organized, handle the weird edge cases, and make systems easy to update later.</p><p>I can help with gameplay mechanics, data saving, inventories, UI logic, tools, bug fixes, and cleaning up existing scripts.</p></div>
-      </section>
+      <section id="services" class="section services"><div class="heading"><div><p class="label">02 / Services</p><h2>Need a hand?</h2></div></div><div class="service-list"><article><span>01</span><h3>New systems</h3><p>From a rough idea to a working feature.</p></article><article><span>02</span><h3>Bug fixes</h3><p>Track down what broke and get it stable again.</p></article><article><span>03</span><h3>Existing games</h3><p>Add features or make older code easier to maintain.</p></article><article><span>04</span><h3>Developer tools</h3><p>Small tools that save time during development.</p></article></div></section>
 
-      <section class="notes">
-        <p class="section-kicker">What I can help with</p>
-        <ul><li>Gameplay systems & mechanics</li><li>Data saving & inventories</li><li>UI logic & interactions</li><li>Bug fixes & script cleanup</li><li>Tools for developers</li></ul>
-      </section>
-
-      <section id="contact" class="contact">
-        <p>Have something you need built?</p>
-        <h2>Let’s talk about it.</h2>
-        <p class="contact-copy">Tell me what you’re making, what’s already done, and what you need help with.</p>
-        <a class="email" href="mailto:your@email.com">your@email.com <span>↗</span></a>
-        <p class="replace">Replace this email with your own before sharing the site.</p>
-      </section>
+      <section id="contact" class="contact"><p class="label">03 / Contact</p><h2>Got a game<br />you’re building?</h2><p>Tell me what you need, what’s already made, and any deadline you have.</p><a href="mailto:your@email.com">your@email.com <span>↗</span></a><small>Replace this email with your real contact before sharing.</small></section>
     </main>
-    <footer><span>© 2026 ccffrc409-art</span><a href="#top">back to top ↑</a></footer>
+    <footer><span>© 2026 ccffrc409-art</span><span>ROBLOX / LUAU</span><a href="#top">Back to top ↑</a></footer>
   </body>
 </html>
